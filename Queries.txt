@@ -1,0 +1,6 @@
+create database rentaldb;
+show databases;
+use retaldb;
+create table employee(sin varchar(9) primary key not null,name varchar(70) not null,phone varchar(20),hiringDate date not null);
+insert into employee values ('1145485','Md.Al-Amin','01749411185','2017/01/01');
+insert into employee values ('2185485','Joy','01949411185','2017/01/02');
